@@ -1,0 +1,18 @@
+Oct 13 22:07:35.653 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 13 22:07:35.654 HYPERVISOR: Started on IP = 192.168.182.1, TCP port = 51194.
+Oct 13 22:07:35.958 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 13 22:07:35.958 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\50242\GNS3\projects\Practica4_201602569\project-files\dynamips 
+Oct 13 22:07:36.165 GENERAL: working_dir=C:\Users\50242\GNS3\projects\Practica4_201602569\project-files\dynamips
+Oct 13 22:07:36.166 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\50242\GNS3\projects\Practica4_201602569\project-files\dynamips\238caff3-040d-4910-9618-c5201a8965f4 
+Oct 13 22:07:36.167 GENERAL: working_dir=C:\Users\50242\GNS3\projects\Practica4_201602569\project-files\dynamips\238caff3-040d-4910-9618-c5201a8965f4
+Oct 13 22:07:36.167 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Oct 13 22:07:36.170 VM: VM R1 created.
+Oct 13 22:07:36.171 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Oct 13 22:07:36.171 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Oct 13 22:07:36.172 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/50242/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Oct 13 22:07:36.172 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 13 22:07:36.173 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x602467a4 
+Oct 13 22:07:36.173 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Oct 13 22:07:36.173 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Oct 13 22:07:36.174 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Oct 13 22:07:36.356 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/50242/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
